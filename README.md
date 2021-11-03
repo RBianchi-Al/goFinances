@@ -27,3 +27,12 @@ Vai abrir uma página web e lá haverá opção para rodar o projeto no emulador
     yarn add styled-components
     yarn add  -D @types/styled-components-react-native
 ```
+
+4. Adicionar uma fonte usando expo
+```
+    expo install expo-font @expo-google-fonts/<nome da fonte>
+```
+
+4. Segurar o loading enquanto as fontes não carregam ele não exibirá o app
+```
+    expo install expo-app-loading
