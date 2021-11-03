@@ -36,3 +36,12 @@ Vai abrir uma página web e lá haverá opção para rodar o projeto no emulador
 4. Segurar o loading enquanto as fontes não carregam ele não exibirá o app
 ```
     expo install expo-app-loading
+```    
+
+5. Trabalhando com proporções: responsive fontsize react native. Tem duas funções, enquanto que no 
+RFP porcentagem largura da tela
+RFValue, considera a medida da densidade (medida rem)
+
+```
+    yarn add react-native-responsive-fontsize
+```
