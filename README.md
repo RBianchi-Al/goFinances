@@ -46,7 +46,7 @@ RFValue, considera a medida da densidade (medida rem)
     yarn add react-native-responsive-fontsize
 ```
 
-5. Trabalhando com ícones usando expo. Quando usa expo tem por padrão uma biblioteca de ícones e já vem instalada por default. Acessando a documentação <link rel="stylesheet" href="https://icons.expo.fyi/">
+5. Trabalhando com ícones usando expo. Quando usa expo tem por padrão uma biblioteca de ícones e já vem instalada por default. Acessando a documentação <link rel="stylesheet" href="https://icons.expo.fyi/">Link</link>
 Basta importar no local que deseja usar:
 
 ```
