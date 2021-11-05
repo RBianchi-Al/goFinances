@@ -57,7 +57,32 @@ export const Icon = styled(Feather) `
     color: ${({theme}) => theme.colors.secundary};
     font-size: ${RFValue(27)}px;
 `
-export const HighlightCards = styled.ScrollView `
- 
+export const HighlightCards = styled.ScrollView.attrs({
+    horizontal: true,
+    showHosizontalScrillIndicador: false,
+    contentContainerStyle: {paddingHorizontal: 24}
+}) `
+ width: 100%;
+ position: absolute;
+ margin-top: ${RFPercentage(30)}px;
+
 
 `
+
+
+
+export const Transations = styled.View `
+    flex: 1%;
+    padding: 0 24px;
+    margin-top: ${RFPercentage(23)}px;
+    
+`;
+
+
+export const Title = styled.Text `
+    font-size: ${RFValue(18)}px;
+    font-family: ${({theme}) => theme.fonts.bold};
+    margin-bottom: ${RFValue(18)}px;
+`;
+
+
