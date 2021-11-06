@@ -1,6 +1,9 @@
 import styled from 'styled-components/native'
+import {FlatList} from 'react-native'
 import {RFPercentage, RFValue} from 'react-native-responsive-fontsize'
 import {Feather} from '@expo/vector-icons'
+
+import {DataListProps} from './index'
 
 export const Container = styled.View `
     flex: 1;
@@ -24,8 +27,8 @@ export const UserInfo = styled.View `
 `
 
 export const  Photo = styled.Image `
-    width: ${RFValue(48)}px;
-    height: ${RFValue(48)}px;
+    width: ${RFValue(65)}px;
+    height: ${RFValue(65)}px;
     
     border-radius: 10px;
 `
@@ -59,7 +62,7 @@ export const Icon = styled(Feather) `
 `
 export const HighlightCards = styled.ScrollView.attrs({
     horizontal: true,
-    showHosizontalScrillIndicador: false,
+    showsHorizontalScrollIndicator: false,
     contentContainerStyle: {paddingHorizontal: 24}
 }) `
  width: 100%;
@@ -85,4 +88,10 @@ export const Title = styled.Text `
     margin-bottom: ${RFValue(18)}px;
 `;
 
+export const TransactionList = styled(
+    FlatList as new () => FlatList<DataListProps>
+).attrs({
+    showsVerticalScrollIndicator: false,
+}) `
 
+`
